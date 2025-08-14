@@ -1,4 +1,4 @@
-base_model: meta-llama/Llama-3.2-1B-Instruct
+base_model: meta-llama/Llama-3.1-8B-Instruct
 
 datasets:
   - path: ./data/all_1k_gpt_train.jsonl
@@ -13,7 +13,7 @@ test_datasets:
     split: train
     train_on_eot: true
 
-output_dir: ./outputs/llama32_1B_lora-32_2e-4_20250720_150739 
+output_dir: ./outputs/llama32_8B_lora-32_2e-4_20250720_150739 
 chat_template: alpaca
 
 special_tokens:
