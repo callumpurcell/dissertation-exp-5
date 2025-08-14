@@ -1,13 +1,22 @@
 MODELS=(
-    outputs/llama32_1B_lora-32_2e-4_20250720_150739
-    outputs/llama32_1B_context_length_long_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_context_length_short_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_context_length_longest_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_context_length_shortest_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_reasoning_trace_longest_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_reasoning_trace_shortest_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_reasoning_trace_long_quartile_10k_gpt_2e-4_20250724_191316
-    outputs/llama32_1B_reasoning_trace_short_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_context_length_long_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_context_length_longest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_context_length_shortest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_context_length_short_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_reasoning_trace_longest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_reasoning_trace_long_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_reasoning_trace_shortest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama31_8B_reasoning_trace_short_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_context_length_longest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_context_length_long_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_context_length_shortest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_context_length_short_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_lora-32_2e-4_20250720_150739
+    outputs/llama32_3B_reasoning_trace_longest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_reasoning_trace_long_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_reasoning_trace_shortest_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_3B_reasoning_trace_short_quartile_10k_gpt_2e-4_20250724_191316
+    outputs/llama32_8B_lora-32_2e-4_20250720_150739
 )
 TASKS=(
     "tatqa_sft"   

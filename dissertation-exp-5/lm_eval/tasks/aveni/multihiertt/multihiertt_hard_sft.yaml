@@ -1,4 +1,0 @@
-task: multihiertt_hard_sft
-include: common_sft.yaml
-
-num_fewshot: 0 # Can be modified for larger models with a long context capabilities (over 16k)

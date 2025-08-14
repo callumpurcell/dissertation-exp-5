@@ -1,4 +1,0 @@
-group: multihiertt_sft
-task:
-    - multihiertt_easy_sft
-    - multihiertt_hard_sft
