@@ -2,8 +2,8 @@ task: synthqa
 dataset_path: json
 dataset_kwargs:
   data_files:
-    validation: ../data/gpt_test_answers.jsonl
-    test: ../data/gpt_test_answers.jsonl
+    validation: data/gpt_test_answers.jsonl
+    test: data/gpt_test_answers.jsonl
 
 validation_split: test
 test_split: test

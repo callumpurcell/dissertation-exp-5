@@ -2,8 +2,8 @@ task: synthqa_val
 dataset_path: json
 dataset_kwargs:
   data_files:
-    validation: ../data/SynthQAv4_val_answers.jsonl
-    test: ../data/SynthQAv4_val_answers.jsonl
+    validation: data/SynthQAv4_val_answers.jsonl
+    test: data/SynthQAv4_val_answers.jsonl
 
 validation_split: test
 test_split: test
