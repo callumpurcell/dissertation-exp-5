@@ -1,13 +1,18 @@
-export CUDA_VISIBLE_DEVICES=4,5,6,7
-echo "Running: llama32_1B_num_60_control_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_num_60_control_1200_2e-4_20250813_211405.yaml --accelerate
-echo "Running: llama32_1B_agreement-2-models_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_agreement-2-models_1200_2e-4_20250813_211405.yaml --accelerate
-echo "Running: llama32_1B_mistral_3B_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_mistral_3B_1200_2e-4_20250813_211405.yaml --accelerate
-echo "Running: llama32_1B_mistral_8B_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_mistral_8B_1200_2e-4_20250813_211405.yaml --accelerate
-echo "Running: llama32_1B_mistral_medium_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_mistral_medium_1200_2e-4_20250813_211405.yaml --accelerate
-echo "Running: llama32_1B_mistral_small_1200_2e-4_20250813_211405"
-axolotl train configs/llama32_1B_mistral_small_1200_2e-4_20250813_211405.yaml --accelerate
+axolotl train configs/llama31_8B_context_length_long_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_context_length_longest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_context_length_shortest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_context_length_short_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_reasoning_trace_longest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_reasoning_trace_long_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_reasoning_trace_shortest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama31_8B_reasoning_trace_short_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_context_length_longest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_context_length_long_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_context_length_shortest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_context_length_short_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_lora-32_2e-4_20250720_150739.yaml --accelerate
+axolotl train configs/llama32_3B_reasoning_trace_longest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_reasoning_trace_long_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_reasoning_trace_shortest_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_3B_reasoning_trace_short_quartile_10k_gpt_2e-4_20250724_191316.yaml --accelerate
+axolotl train configs/llama32_8B_lora-32_2e-4_20250720_150739.yaml --accelerate
