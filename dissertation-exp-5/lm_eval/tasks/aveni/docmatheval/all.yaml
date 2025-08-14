@@ -1,0 +1,3 @@
+group: aveni_synthqa
+task:
+  - docmatheval 
